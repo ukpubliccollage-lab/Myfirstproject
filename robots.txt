@@ -1,0 +1,73 @@
+# DigitalGrow Website - Robots.txt
+# This file tells search engines how to crawl and index your website
+# Reference: https://developers.google.com/search/docs/beginner/robots-txt
+
+# Allow all bots to crawl all content
+User-agent: *
+Allow: /
+
+# Disallow access to specific directories (examples)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+# Disallow access to sensitive file types
+Disallow: /*.zip$
+Disallow: /*.rar$
+Disallow: /*.sql$
+Disallow: /*.exe$
+
+# Disallow access to specific files
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+
+# Crawl delay (optional - adjust based on server load)
+# Crawl-delay: 1
+
+# Request rate (optional)
+# Request-rate: 1/10
+
+# Specify sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MojeekBot
+Disallow: /
+
+# Allow social media bots
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Note: Update "yourdomain.com" with your actual domain name
