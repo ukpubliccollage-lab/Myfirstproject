@@ -17,13 +17,31 @@ A modern, professional digital marketing agency website built with HTML, CSS, an
   - Scroll-to-top button
   - Floating notifications
 
+## 📚 Documentation
+
+Complete project documentation is available in the [`docs/`](./docs/) directory:
+- [Quick Start Guide](./docs/QUICK-START.md)
+- [Deployment Guide](./docs/DEPLOYMENT.md)
+- [WordPress Integration](./docs/WORDPRESS-GUIDE.md)
+- [Project Summary](./docs/PROJECT-SUMMARY.md)
+- [Documentation Index](./docs/README.md)
+
+See [`docs/CLAUDE.md`](./docs/CLAUDE.md) for a quick reference guide.
+
 ## 📁 File Structure
 
 ```
 ├── index.html          # Main HTML file with all sections
 ├── styles.css          # Complete styling and responsive design
 ├── script.js           # JavaScript for interactivity
-└── README.md           # This file
+├── README.md           # This file
+└── docs/               # Project documentation
+    ├── README.md       # Documentation index
+    ├── CLAUDE.md       # Quick reference guide
+    ├── QUICK-START.md  # Getting started guide
+    ├── DEPLOYMENT.md   # Deployment procedures
+    ├── WORDPRESS-GUIDE.md
+    └── PROJECT-SUMMARY.md
 ```
 
 ## 🚀 Quick Start
