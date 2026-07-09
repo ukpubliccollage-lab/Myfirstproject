@@ -3,7 +3,6 @@
   "version": 2,
   "buildCommand": "",
   "outputDirectory": ".",
-  "public": true,
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
