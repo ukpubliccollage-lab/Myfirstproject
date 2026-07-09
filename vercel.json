@@ -87,10 +87,5 @@
   ],
   "env": {
     "ENVIRONMENT": "production"
-  },
-  "regions": [
-    "iad1",
-    "sfo1",
-    "lhr1"
-  ]
+  }
 }
