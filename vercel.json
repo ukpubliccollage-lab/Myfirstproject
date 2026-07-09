@@ -88,11 +88,6 @@
   "env": {
     "ENVIRONMENT": "production"
   },
-  "buildGroups": {
-    "default": {
-      "maxDuration": 60
-    }
-  },
   "regions": [
     "iad1",
     "sfo1",
